@@ -57,7 +57,7 @@ audio{
     border-radius: 33px;
     margin-bottom: 10px;
 }
-@media(min-width:400px) and (max-width:1488px){
+@media(min-width:400px) and (max-width:1226px){
     input {
         font-size:xx-small;
     }
