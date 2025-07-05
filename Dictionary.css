@@ -2,6 +2,8 @@ body{
      font-family: "Roboto", sans-serif;
      color: black;
      background-color: #e7e7e7;
+     background-image: url(bg2.jpg);
+     background-blend-mode:overlay;
 }
 input{
     width: 30%;
@@ -59,11 +61,20 @@ audio{
 }
 @media(min-width:300px) and (max-width:1226px){
     input {
-        font-size:xx-small;
+        width: 90%;
+        font-size:large;
+        margin-bottom: 10px;
+        text-align: center;
     }
     #searchBtn{
-        font-size: xx-small;
-        width: fit-content;
+        font-size: large;
+        width: 30%;
+    }
+    .searchBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media(min-width:300px) and (max-width:630px){
