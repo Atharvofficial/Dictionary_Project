@@ -47,3 +47,12 @@ input{
 .gif{
     margin: 15px;
 }
+audio::-webkit-media-controls-panel {
+  background-color: #e0efe6;
+
+}
+audio{
+    border: 1px solid black;
+    border-radius: 33px;
+    margin-bottom: 10px;
+}
