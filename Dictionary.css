@@ -1,7 +1,7 @@
 body{
      font-family: "Roboto", sans-serif;
      color: black;
-     background-color: #F6F6F6;
+     background-color: #e7e7e7;
 }
 input{
     width: 30%;
@@ -34,6 +34,7 @@ input{
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
+    background-color: #F6F6F6;
 }
 .meaningDiv{
     margin: auto;
@@ -55,4 +56,19 @@ audio{
     border: 1px solid black;
     border-radius: 33px;
     margin-bottom: 10px;
+}
+@media(min-width:400px) and (max-width:1488px){
+    input {
+        font-size:xx-small;
+    }
+    #searchBtn{
+        font-size: xx-small;
+        width: fit-content;
+    }
+}
+@media(min-width:400px) and (max-width:630px){
+    audio{
+        width: 60%;
+        
+    }
 }
