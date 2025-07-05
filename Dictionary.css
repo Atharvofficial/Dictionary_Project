@@ -69,6 +69,5 @@ audio{
 @media(min-width:400px) and (max-width:630px){
     audio{
         width: 60%;
-        
     }
 }
