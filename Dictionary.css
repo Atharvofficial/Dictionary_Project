@@ -76,6 +76,9 @@ audio{
         justify-content: center;
         align-items: center;
     }
+    .card{
+        width: 90%;
+    }
 }
 @media(min-width:300px) and (max-width:630px){
     audio{
