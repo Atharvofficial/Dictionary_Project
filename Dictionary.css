@@ -103,6 +103,7 @@ audio{
   height: 60px;
   animation: spin 1s linear infinite;
   margin : auto;
+  display: none;
 
 }
 
