@@ -6,7 +6,11 @@ btn.addEventListener("click", async()=>{
     reset();
     let word = inp.value;
     inp.value = "";
+    let loader = document.querySelector(".loader");
+    loader.style.display = "block";
     let data = await getWord(word);
+    
+    loader.style.display = "none";
     if(data === "Word not found"){
         let div = document.createElement("div");
         div.classList.add("card");
