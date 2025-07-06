@@ -42,7 +42,7 @@ function displayInfo(data){
         div.append(word);
         let phonetic = document.createElement("h4");
         phonetic.innerText = `Phonetic - ${element.phonetic}`;
-        if(phonetic) {
+        if(element.phonetic) {
             div.append(phonetic);
         } 
         
@@ -52,7 +52,7 @@ function displayInfo(data){
             if(audio.audio){
                 let txt = document.createElement("h4");
                 txt.innerText = audio.text;
-                if(txt) {
+                if(audio.text) {
                     div.append(txt);
                 } 
                 
