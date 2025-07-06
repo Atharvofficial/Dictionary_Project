@@ -42,14 +42,20 @@ function displayInfo(data){
         div.append(word);
         let phonetic = document.createElement("h4");
         phonetic.innerText = `Phonetic - ${element.phonetic}`;
-        div.append(phonetic);
+        if(phonetic) {
+            div.append(phonetic);
+        } 
+        
         let rule = document.createElement("hr");
         div.append(rule);
         for (const audio of element.phonetics) {
             if(audio.audio){
                 let txt = document.createElement("h4");
                 txt.innerText = audio.text;
-                div.append(txt);
+                if(txt) {
+                    div.append(txt);
+                } 
+                
                 let aud = document.createElement("audio")
                 aud.controls = true;
                 aud.src = audio.audio;
